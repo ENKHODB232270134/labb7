@@ -1,14 +1,14 @@
 DURS = input("(square, rectangle, circle, triangle): ")
 
 if DURS == "square":
-    tal = float(input("tal:"))
-    s = (tal*tal)
+    a = float(input())
+    s = (a*a)
     print("%.3f" % s)
 
 elif DURS == "rectangle":
-    urt = float(input("urt:"))
-    urgun = float(input("urgun:"))
-    s = (urt*urgun)
+    a = float(input())
+    b = float(input())
+    s = (a*b)
     print("%.3f" % s)
 
 elif DURS == "circle":
@@ -17,8 +17,8 @@ elif DURS == "circle":
     print("%.3f" % s)
 
 elif DURS == "triangle":
-    suuri = float(input("suurin urt:"))
-    undur = float(input("undur:"))
-    s = (0.5*suuri*undur)
+    L = float(input())
+    h = float(input())
+    s = (0.5*L*h)
     print("%.3f" % s)
 
