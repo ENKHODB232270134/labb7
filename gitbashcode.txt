@@ -1,0 +1,176 @@
+notsy@enhdd MINGW64 ~
+$ mkdir labb7
+
+notsy@enhdd MINGW64 ~
+$ dir
+AppData
+Application\ Data
+Cisco\ Packet\ Tracer\ 8.2.2
+Contacts
+Cookies
+Documents
+Downloads
+Favorites
+Lab5
+Lab5.zip
+Links
+Local\ Settings
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{658c0b38-e5d5-11ef-9ddf-c0a5e8f9a113}.TM.blf
+NTUSER.DAT{658c0b38-e5d5-11ef-9ddf-c0a5e8f9a113}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{658c0b38-e5d5-11ef-9ddf-c0a5e8f9a113}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+OneDrive
+PrintHood
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Videos
+dag1.py
+das1.py
+dasg1.py
+dasg2.py
+dasg3.py
+dasg4.py
+dasg5.py
+eclipse
+eclipse-workspace
+lab4
+lab4\ dasgal1.py
+lab4\ dasgal2.py
+lab44
+lab444
+lab7
+labb7
+labor4
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+notsy@enhdd MINGW64 ~
+$ cd labb7
+
+notsy@enhdd MINGW64 ~/labb7
+$ git init
+Initialized empty Git repository in C:/Users/notsy/labb7/.git/
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ touch readme.txt
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git commit -m "lab7"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git add readme.txt
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git commit -m "lab7"
+[master (root-commit) 1cba057] lab7
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.txt
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ex1.py
+        ex2.py
+        ex3.py
+        ex4.py
+        ex5.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git add ex1.py
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git commit -m "das1"
+[master c000899] das1
+ 1 file changed, 16 insertions(+)
+ create mode 100644 ex1.py
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git add ex2.py
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git commit -m "das2"
+[master 489712b] das2
+ 1 file changed, 2 insertions(+)
+ create mode 100644 ex2.py
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git add ex3.py
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git commit -m "das3"
+[master 890ed4b] das3
+ 1 file changed, 12 insertions(+)
+ create mode 100644 ex3.py
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git add ex4
+fatal: pathspec 'ex4' did not match any files
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git add ex4.py
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git commit -m "das4"
+[master 08c5a9f] das4
+ 1 file changed, 24 insertions(+)
+ create mode 100644 ex4.py
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git add ex5.py
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git commit -m "das5"
+[master 93c6a09] das5
+ 1 file changed, 10 insertions(+)
+ create mode 100644 ex5.py
+
+notsy@enhdd MINGW64 ~/labb7 (master)
+$ git branch -M main
+git remote add origin https://github.com/ENKHODB232270134/labb7.git
+git push -u origin main
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (18/18), 1.93 KiB | 989.00 KiB/s, done.
+Total 18 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/ENKHODB232270134/labb7.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+notsy@enhdd MINGW64 ~/labb7 (main)
+$
