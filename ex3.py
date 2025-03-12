@@ -7,6 +7,6 @@ m = int(input())
 n = float(input())  
 k = float(input())
 
-s = ((u*uzeg) + (m*marker) + (n*nuntag)) - (((u*uzeg) + (m*marker) + (n*nuntag)) /100* k)
+s = ((u*uzeg) + (m*marker) + (n*nuntag)) - (((u*uzeg) + (m*marker) + (n*nuntag)) /100*k)
 
-print(f"Niit: {s} dollar")
+print("%.3f" % s)
